@@ -1,0 +1,132 @@
+/* styles.css */
+
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Container Styles */
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input,
+form button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+/* Sign Up and Login Page Styles */
+.page {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.page h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Upload Area Styles */
+.upload-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px dashed #28a745;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.upload-container.dragging {
+    background-color: #f0fff0;
+}
+
+.upload-container p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.upload-container input {
+    display: none;
+}
+
+.upload-container button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.upload-container button:hover {
+    background-color: #218838;
+}
+
+/* Alerts */
+.alert {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.alert.success {
+    background-color: #28a745;
+}
+
+.alert.error {
+    background-color: #dc3545;
+}
